@@ -1,0 +1,271 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(205, 202, 202);
+    font-family: sans-serif;
+
+}
+
+.first {
+    margin-top: 240px;
+    margin-left: 150px;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: #1877f2;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.details {
+    margin-top: -194px;
+    margin-right: 160px;
+    float: right;
+    background-color: white;
+    width: 390px;
+    height: 400px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.form {
+    float: right;
+    background-color: white;
+    margin-top: 15px;
+    padding: 37px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form input {
+
+    width: 166%;
+    padding: 14px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #1d2129;
+    background-color: #f5f6f7;
+    margin-left: -39%;
+
+}
+
+.text::placeholder {
+    color: #90949c;
+}
+
+.text:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 4px rgba(24, 119, 242, 0.6);
+    outline: none;
+}
+
+.text:hover {
+    border-color: #ccc;
+}
+
+
+button {
+    margin-top: 15px;
+    background-color: #1877f2;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-color: #1877f2;
+    font-family: sans-serif;
+}
+
+
+
+
+a {
+    background-color: white;
+    font-size: 16px;
+    color: #1877f2;
+    text-decoration: none;
+    margin-top: 10px
+}
+
+button .new {
+    margin-top: 15px;
+    background-color: #4bf218;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-color: #4bf218;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.btn button {
+    background-color: #1b9c24;
+    border-color: #1b9c24;
+    font-family: sans-serif;
+}
+
+hr {
+    color: #dfe3ee;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+
+}
+
+.last {
+    font-family: sans-serif;
+    float: right;
+    margin-top: 250px;
+    margin-right: -370px;
+}
+
+
+.last a {
+    color: black;
+}
+
+
+.bottom {
+    background-color: white;
+    margin-top: 400px;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.facebook-login-button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(70, 15, 15, 0.2);
+    width: 166%;
+    margin-left: -39%;
+    margin-bottom: 8%;
+}
+
+.facebook-login-button:hover {
+    background-color: #165cdb;
+}
+
+.facebook-login-button:active {
+    background-color: #0e46a0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-login-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.4);
+}
+
+
+.facebook-create-account-button {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-create-account-button:hover {
+    background-color: #36a420;
+}
+
+.facebook-create-account-button:active {
+    background-color: #2e8b1f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-create-account-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 183, 42, 0.4);
+}
+
+.footer {
+    background-color: #f5f6f7;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #737373;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.footer-container {
+    max-width: 1399px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: white;
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.footer-links li {
+    margin: 5px 10px;
+}
+
+.footer-links a {
+    color: #cdc8c8;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    margin-top: 20px;
+}
+
+
+
